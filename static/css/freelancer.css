@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Grandpy Bot</title>
-
-  <!-- Custom fonts for this theme -->
-  <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="{{ url_for('static', filename='../static/freelancer.min.css') }}" rel="stylesheet" >
-
-</head>
- <style>/*!
+/*!
  * Start Bootstrap - Freelancer v5.1.2 (https://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
@@ -40,13 +19,13 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #afbdd4;
+  --teal: #1abc9c;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #afbdd4;
-  --secondary: #3b5998;
+  --primary: #1abc9c;
+  --secondary: #2c3e50;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -182,7 +161,7 @@ sup {
 }
 
 a {
-  color: #afbdd4;
+  color: #1abc9c;
   text-decoration: none;
   background-color: transparent;
 }
@@ -422,8 +401,8 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1rem;
-  font-weight: 200;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .display-1 {
@@ -2636,8 +2615,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-primary:hover {
@@ -2653,8 +2632,8 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2672,8 +2651,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-secondary:hover {
@@ -2689,8 +2668,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
@@ -2923,14 +2902,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #afbdd4;
-  border-color: #afbdd4;
+  color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2939,15 +2918,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #afbdd4;
+  color: #1abc9c;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2957,14 +2936,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #3b5998;
-  border-color: #3b5998;
+  color: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -2973,15 +2952,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #3b5998;
+  color: #2c3e50;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -3196,7 +3175,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #afbdd4;
+  color: #1abc9c;
   text-decoration: none;
 }
 
@@ -3500,7 +3479,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3888,8 +3867,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #afbdd4;
-  background-color: #afbdd4;
+  border-color: #1abc9c;
+  background-color: #1abc9c;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3954,8 +3933,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #afbdd4;
-  background-color: #afbdd4;
+  border-color: #1abc9c;
+  background-color: #1abc9c;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -4188,7 +4167,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4223,7 +4202,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4261,7 +4240,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4411,7 +4390,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
 }
 
 .nav-fill .nav-item {
@@ -5204,7 +5183,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -0.125rem;
   line-height: 1.25;
-  color: #afbdd4;
+  color: #1abc9c;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
 }
@@ -5238,8 +5217,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .page-item.disabled .page-link {
@@ -5326,7 +5305,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5342,7 +5321,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #3b5998;
+  background-color: #2c3e50;
 }
 
 a.badge-secondary:hover, a.badge-secondary:focus {
@@ -5654,7 +5633,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #afbdd4;
+  background-color: #1abc9c;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -5757,8 +5736,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #afbdd4;
-  border-color: #afbdd4;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .list-group-horizontal {
@@ -6937,7 +6916,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #afbdd4 !important;
+  background-color: #1abc9c !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6947,7 +6926,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #3b5998 !important;
+  background-color: #2c3e50 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7065,11 +7044,11 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #afbdd4 !important;
+  border-color: #1abc9c !important;
 }
 
 .border-secondary {
-  border-color: #3b5998 !important;
+  border-color: #2c3e50 !important;
 }
 
 .border-success {
@@ -10394,7 +10373,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #afbdd4 !important;
+  color: #1abc9c !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10402,7 +10381,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #3b5998 !important;
+  color: #2c3e50 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10616,9 +10595,9 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #3b5998;
+  background-color: #2c3e50;
   border-radius: 1rem;
-  border-color: #3b5998 !important;
+  border-color: #2c3e50 !important;
 }
 
 .divider-custom .divider-custom-line:first-child {
@@ -10630,7 +10609,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom .divider-custom-icon {
-  color: #3b5998 !important;
+  color: #2c3e50 !important;
   font-size: 2rem;
 }
 
@@ -10697,7 +10676,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #afbdd4;
+  color: #1abc9c;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10705,7 +10684,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #afbdd4;
+  color: #1abc9c;
 }
 
 #mainNav .navbar-toggler {
@@ -10730,11 +10709,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #afbdd4;
+    background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #afbdd4;
+    background: #1abc9c;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10828,7 +10807,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #afbdd4;
+  color: #1abc9c;
   opacity: 1;
 }
 
@@ -10878,7 +10857,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #afbdd4;
+  color: #1abc9c;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10888,92 +10867,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #3b5998;
+  background-color: #2c3e50;
   color: #fff;
 }
 
 .copyright {
   background-color: #1a252f;
 }
-</style>
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">GrandPy Bot</a>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="../static/img/avatar.png" alt="">
-
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading mb-0">Bonjour! <br>Je suis GrandPy Bot</h1>
-
-
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Quel lieu veux-tu que je te fasse découvrir mon petit?</p>
-
-    </div>
-  </header>
-
-
-
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-
-
-
-        <!-- Footer Social Icons -->
-        <div class="col-sm center-block">
-          <h4 class="text-uppercase text-center mb-3">Sami</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/samisl_">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/sami-s-94614414b/">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/slisam">
-            <i class="fab fa-fw fa-github"></i>
-          </a>
-        </div>
-
-
-      </div>
-    </div>
-  </footer>
-
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="../static/vendor/jquery/jquery.min.js"></script>
-  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="../static/js/jqBootstrapValidation.js"></script>
-  <script src="../static/js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="../static/js/freelancer.min.js"></script>
-
-</body>
-
-</html>
