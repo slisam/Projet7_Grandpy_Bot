@@ -2,102 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0372c3e9-ec85-45c0-821f-a3675966a40d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/freelancer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/freelancer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/contact_me.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/freelancer.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/freelancer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jqBootstrapValidation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/base/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/components/_divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/freelancer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/layout/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/layout/_masthead.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/layout/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/layout/_portfolio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/freelancer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/freelancer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/avataaars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/img/portfolio/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/contact_me.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/freelancer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/freelancer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jqBootstrapValidation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/base/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/components/_divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/freelancer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/layout/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/layout/_masthead.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/layout/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scss/layout/_portfolio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,40 +30,40 @@
         <counts>
           <entry key="css" value="7" />
           <entry key="html" value="10" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="procfile" value="1" />
           <entry key="py" value="10" />
           <entry key="scss" value="7" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
           <entry key="HTML" value="10" />
-          <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="176" />
+          <entry key="css" value="178" />
           <entry key="dummy" value="12" />
-          <entry key="html" value="1253" />
+          <entry key="html" value="1265" />
           <entry key="js" value="138" />
           <entry key="procfile" value="10" />
           <entry key="py" value="2455" />
           <entry key="scss" value="1" />
-          <entry key="txt" value="130" />
+          <entry key="txt" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="176" />
-          <entry key="HTML" value="1253" />
+          <entry key="CSS" value="178" />
+          <entry key="HTML" value="1265" />
           <entry key="JavaScript" value="138" />
-          <entry key="PLAIN_TEXT" value="153" />
+          <entry key="PLAIN_TEXT" value="219" />
           <entry key="Python" value="2455" />
         </counts>
       </usages-collector>
@@ -169,88 +75,65 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39880952">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/view.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="37" column="22" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#55#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/basic.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="71">
-                  <caret line="70" lean-forward="true" selection-end-line="139" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16252">
-                  <caret line="956" column="6" selection-start-line="956" selection-start-column="6" selection-end-line="956" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/css/test.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
-                  <caret line="964" selection-start-line="964" selection-end-line="964" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/js/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
-                  <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/classes.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1921">
-                  <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                    <marker date="1566990168821" expanded="true" signature="8015:8021" ph="..." />
-                    <marker date="1566990168821" expanded="true" signature="8015:10872" ph="..." />
-                    <marker date="1566990168821" expanded="true" signature="10871:10872" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="982">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/basic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="664" lean-forward="true" selection-start-line="664" selection-end-line="664" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -262,12 +145,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>floating</find>
-      <find>boot</find>
-      <find>pop</find>
       <find>maps</find>
       <find>.masthead {</find>
-      <find>css</find>
       <find>ivory</find>
       <find>none</find>
       <find>textUser</find>
@@ -287,11 +166,15 @@
       <find>addressGlobal</find>
       <find>glo</find>
       <find>load</find>
-      <find>map</find>
-      <find>marker</find>
       <find>wikilinkvoi</find>
-      <find>global</find>
+      <find>map</find>
+      <find>css</find>
+      <find>marker</find>
       <find>LISTANSWER</find>
+      <find>global</find>
+      <find>freelan</find>
+      <find>freelancer</find>
+      <find>free</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -313,16 +196,17 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/procfile" />
         <option value="$PROJECT_DIR$/classes.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/templates/css/freelancer.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/static/js/helium.js" />
-        <option value="$PROJECT_DIR$/view.py" />
-        <option value="$PROJECT_DIR$/templates/basic.html" />
         <option value="$PROJECT_DIR$/form.py" />
         <option value="$PROJECT_DIR$/static/js/freelancer.js" />
         <option value="$PROJECT_DIR$/static/css/test.css" />
         <option value="$PROJECT_DIR$/static/css/freelancer.css" />
+        <option value="$PROJECT_DIR$/templates/basic.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/view.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -514,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566992639249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="nettoyage des fichiers et du code css">
+      <created>1567029864442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567029864442</updated>
+    </task>
+    <task id="LOCAL-00007" summary="js et css renommé">
+      <created>1567030259610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567030259610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -528,17 +426,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25892857" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10714286" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19016394" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4409836" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5022625" side_tool="true" weight="0.3516874" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.327212" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49924126" weight="0.3344426" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49773756" visible="true" weight="0.2704918" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49773756" weight="0.2704918" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -557,7 +456,9 @@
     <MESSAGE value="création du  design de l'application" />
     <MESSAGE value="maj requirements" />
     <MESSAGE value="v1 du site fonctionnel" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1 du site fonctionnel" />
+    <MESSAGE value="nettoyage des fichiers et du code css" />
+    <MESSAGE value="js et css renommé" />
+    <option name="LAST_COMMIT_MESSAGE" value="js et css renommé" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/view.py" />
@@ -657,13 +558,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/helium.js" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14064" />
@@ -673,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="964" selection-start-line="964" selection-end-line="964" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -696,34 +583,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="664" lean-forward="true" selection-start-line="664" selection-end-line="664" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/basic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="70" lean-forward="true" selection-end-line="139" />
+        <state relative-caret-position="289">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="982">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16252">
-          <caret line="956" column="6" selection-start-line="956" selection-start-column="6" selection-end-line="956" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

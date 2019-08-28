@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, json
 from classes import Parser, GoogleMaps, Wiki, GrandPyMessages
 
 
-
-
 app = Flask(__name__, )
 
 app.secret_key = "developmet-key"
