@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, json
-from form import Parser, GoogleMaps, Wiki, GrandPyMessages
+from classes import Parser, GoogleMaps, Wiki, GrandPyMessages
 
 
 
