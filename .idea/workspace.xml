@@ -4,7 +4,6 @@
     <list default="true" id="0372c3e9-ec85-45c0-821f-a3675966a40d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
           <entry key="procfile" value="10" />
           <entry key="py" value="2455" />
           <entry key="scss" value="1" />
-          <entry key="txt" value="196" />
+          <entry key="txt" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,7 +62,7 @@
           <entry key="CSS" value="178" />
           <entry key="HTML" value="1265" />
           <entry key="JavaScript" value="138" />
-          <entry key="PLAIN_TEXT" value="219" />
+          <entry key="PLAIN_TEXT" value="261" />
           <entry key="Python" value="2455" />
         </counts>
       </usages-collector>
@@ -110,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -412,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567030259610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="maj requirement">
+      <created>1567030958311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567030958311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="maj requirement">
+      <created>1567031140411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567031140411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,7 +471,8 @@
     <MESSAGE value="v1 du site fonctionnel" />
     <MESSAGE value="nettoyage des fichiers et du code css" />
     <MESSAGE value="js et css renommé" />
-    <option name="LAST_COMMIT_MESSAGE" value="js et css renommé" />
+    <MESSAGE value="maj requirement" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj requirement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/view.py" />
@@ -624,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
