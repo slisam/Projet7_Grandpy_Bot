@@ -58,7 +58,7 @@ button.on('click', function(event) {
       loader.delay(300).fadeIn(3000).fadeOut('slow', function() {
         answerAddress.append(response['addressAnswer']);
         if (response['format_address'] != '') {
-          	addressGlobal.append(response['format_address'] + '<br><br><a href="#map" id="linkWikipedia">Voir la carte</a>');
+          	addressGlobal.append(response['format_address'] + '<br><br><span class="toMap"><a href="#map" id="linkWikipedia">Voir la carte</a></span>');
             // Sending the coordinates of the address to the Google Maps API JavaScript
             // to display the right map.
             userPlace = {lat: response['lat'], lng: response['lng']};
@@ -154,7 +154,6 @@ button.on('click', function(event) {
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-
 
 
 })(jQuery); // End of use strict

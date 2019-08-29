@@ -905,7 +905,6 @@ h4 {
 }
 
 
-
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -915,8 +914,8 @@ h4 {
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
-    height: 100%;
-    width: 60%;
+    height: 500px;
+    width: 100%;
     display: none;
 }
 /* Optional: Makes the sample page fill the window. */
