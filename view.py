@@ -2,22 +2,24 @@ from flask import Flask, render_template, request, json
 from classes import Parser, GoogleMaps, Wiki, GrandPyMessages
 
 
-app = Flask(__name__, )
+app = Flask(__name__)
 
 app.secret_key = "developmet-key"
+
 
 @app.route("/")
 def index():
     return render_template("index.html")
 
-@app.route("/_query", methods=['GET'])
+
+@app.route("/_query", methods=["GET"])
 def query():
     """Method to receive the query from the client side (input form) with AJAX
     and return all the objects needed in json to AJAX, after making instances
     and running the methods from classes.py."""
 
     # Getting the text the user type in the input form.
-    user_text = request.args.get('text')
+    user_text = request.args.get("text")
     # Parsing the user text.
     # Parser instance creation.
     user_request = Parser(user_text)
@@ -52,36 +54,40 @@ def query():
                 # GrandPy Bot different possible messages if there is no answer from Wikipedia.
                 storyAnswer = GrandPyMessages.randomNoStory()
                 # Reference this empty variable.
-                wikiExtract = ''
-                pageid = ''
+                wikiExtract = ""
+                pageid = ""
         except:
             print("coucou")
             # GrandPy Bot different possible messages if there is no answer from Wikipedia.
             storyAnswer = GrandPyMessages.randomNoStory()
             # Reference this empty variable.
-            wikiExtract = ''
-            pageid = ''
+            wikiExtract = ""
+            pageid = ""
     except:
 
         # GrandPy Bot different possible messages if there is no answer from GoogleMaps.
         addressAnswer = GrandPyMessages.randomNoAnswer()
         # Reference those empty variables.
-        latitude = ''
-        longitude = ''
-        format_address = ''
-        wikiExtract = ''
-        storyAnswer = ''
-        pageid = ''
+        latitude = ""
+        longitude = ""
+        format_address = ""
+        wikiExtract = ""
+        storyAnswer = ""
+        pageid = ""
 
     # JSON with the responses send back to AJAX (home.js).
-    return json.dumps({'userText': user_text, \
-        'addressAnswer': addressAnswer, \
-        'lat':latitude, \
-        'lng':longitude, \
-        'format_address':format_address, \
-        'storyAnswer': storyAnswer, \
-        'wikiExtract': wikiExtract, \
-        'pageid': pageid})
+    return json.dumps(
+        {
+            "userText": user_text,
+            "addressAnswer": addressAnswer,
+            "lat": latitude,
+            "lng": longitude,
+            "format_address": format_address,
+            "storyAnswer": storyAnswer,
+            "wikiExtract": wikiExtract,
+            "pageid": pageid,
+        }
+    )
 
 
 if __name__ == "__main__":
