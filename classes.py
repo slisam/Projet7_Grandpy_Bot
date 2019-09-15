@@ -2,7 +2,7 @@ import requests
 import random
 import re
 
-
+# Stopwords list for the parser
 STOPWORDS = [
     "là",
     "flac",
@@ -704,10 +704,13 @@ STOPWORDS = [
 
 
 class Parser:
+    """ Class definition to parse the sentence from the webpage input. """
+
     def __init__(self, user_request):
         self.user_request = user_request
 
     def parsing(self):
+        """ Parser """
         self.user_request = self.user_request.lower()
         self.user_request = re.sub(r"[.!:,;?\']", " ", self.user_request).split()
         self.user_request = [mot for mot in self.user_request if mot not in STOPWORDS]
@@ -716,6 +719,10 @@ class Parser:
 
 
 class GoogleMaps:
+    """ Class definition finding the coordinates of the place to find
+        and returning the latitude, longitude and the address of that place.
+        """
+
     def __init__(self, query):
         self.query = query
         self.lat = float
@@ -740,11 +747,19 @@ class GoogleMaps:
 
 
 class Wiki:
+    """ Class definition to find the story of the nearby landmark the user wanted
+        to find, passing latitude and longitude coordinates to MediaWiki and returning
+        the 2 first sentences of the first paragraph extract of the Wikipedia page.
+        """
+
     def __init__(self, latitude, longitude):
         self.latitude = latitude
         self.longitude = longitude
 
     def comment(self):
+        """
+        Return the first two sentences of the intro in the extracts
+        """
         coordinates = "{}|{}".format(self.latitude, self.longitude)
         wiki_params = {
             "action": "query",
@@ -767,7 +782,6 @@ class Wiki:
             return comments, pageid
         except KeyError:
             print("key error")
-            pass
 
 
 class GrandPyMessages:

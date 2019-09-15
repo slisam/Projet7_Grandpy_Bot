@@ -2,17 +2,16 @@ from flask import Flask, render_template, request, json
 from classes import Parser, GoogleMaps, Wiki, GrandPyMessages
 
 
-app = Flask(__name__)
+APP = Flask(__name__)
+APP.secret_key = "developmet-key"
 
-app.secret_key = "developmet-key"
 
-
-@app.route("/")
+@APP.route("/")
 def index():
     return render_template("index.html")
 
 
-@app.route("/_query", methods=["GET"])
+@APP.route("/_query", methods=["GET"])
 def query():
     """Method to receive the query from the client side (input form) with AJAX
     and return all the objects needed in json to AJAX, after making instances
@@ -29,7 +28,7 @@ def query():
 
     # GoogleMaps instance creation.
     query = GoogleMaps(user_query)
-    print(user_query)
+    print(GoogleMaps("openclassrooms"))
     # Find the address of the place looked for.
     try:
         # Running the coordinates method and retrieving latitude, longitude
@@ -91,4 +90,4 @@ def query():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    APP.run(debug=True)
