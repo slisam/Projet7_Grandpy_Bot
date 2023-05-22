@@ -3,4 +3,4 @@ Flask-Compress==1.4.0
 Flask-Cors>=3.0.9
 gunicorn==19.9.0
 flask_wtf
-requests==2.21.0
+requests==2.31.0
